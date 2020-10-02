@@ -8,7 +8,7 @@ function App() {
         <section className="contact-page-section">
         <div className="container">
           <div className="sec-title">
-            <div className="title">Contact Us</div>
+         
             <h2>Let's Get in Touch.</h2>
           </div>
           <div className="inner-container">
@@ -41,20 +41,21 @@ function App() {
                       </div>
                     </form>
                   </div>
+                  
                   {/*End Contact Form*/}
                 </div>
               </div>
               {/*Info Column*/}
               <div className="info-column col-md-4 col-sm-12 col-xs-12">
                 <div className="inner-column">
-                  <h2>Contact Info</h2>
+                  <h2>Headquarters :</h2>
                   <ul className="list-info">
                     <li><i className="fas fa-globe" />314 Imam Haron road, Landsdowne Cape Town 7780</li>
                     <li><i className="far fa-envelope" />info@lcstudio.co.za</li>
                     <li><i className="fas fa-phone" />021 696 4157 <br /> </li>
                   </ul>
                   <ul className="social-icon-four">
-                    <li className="follow">Follow on: </li>
+                    <li className="follow">Follow us: </li>
                     <li><a href="https://www.facebook.com/salesianlifechoices/" target="blank" ><i className="fab fa-facebook-f" /></a></li>
                     <li><a href="https://twitter.com/lifechoicesza?lang=en" target="blank"><i className="fab fa-twitter" /></a></li>
                     <li><a href="https://www.linkedin.com/company/salesian-life-choices" target="blank"><i className="fab fa-linkedin" /></a></li>

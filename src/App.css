@@ -1,3 +1,6 @@
+.app{
+   background-image: url('./contactbackground.png');
+}
 li,
 ul {
   list-style: none;
@@ -29,16 +32,18 @@ ul {
 }
 .sec-title h2 {
   position: relative;
-  color: #252525;
+  color:white;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.5em;
   display: block;
+  text-decoration: underline;
 }
 .sec-title.light h2 {
   color: #fff;
 }
 .contact-page-section {
+  background-image: url('./contactbackground.png');
   position: relative;
   padding-top: 110px;
   padding-bottom: 110px;
@@ -146,7 +151,7 @@ ul {
 .contact-form .theme-btn:hover {
   color: black;
   border-color: black;
-  background: red;
+  background-color: white;
 }
 .contact-form input.error,
 .contact-form select.error,
@@ -195,7 +200,7 @@ ul {
   overflow: hidden;
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.85);
-  color: #bababa;
+  color: white;
 }
 .footer p {
   float: left;
@@ -222,7 +227,7 @@ ul {
 .footer ul li a i{
   width: 50px;
   height: 50px;
-  background-color: #4D4D4D;
+  background-color: black;
   line-height: 50px;
   font-size: 35px;
   margin-left: 5px;
