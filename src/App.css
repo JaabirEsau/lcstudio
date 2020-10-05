@@ -1,5 +1,5 @@
-.app{
-   background-image: url('./contactbackground.png');
+.app {
+  background-image: url("https://lh3.googleusercontent.com/proxy/Ir_jGK_a013RoZW1acaUwd54O9erRwnf6UMxcm2j-HFcUuWwC-Zau4ySr58vbBaCZds0lTQJeTHrQvDXXPEL_RYlYOR8HTK7sb0gJPwQ-eDQV_djekPXJ7prDg");
 }
 li,
 ul {
@@ -32,7 +32,7 @@ ul {
 }
 .sec-title h2 {
   position: relative;
-  color:white;
+  color: white;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.5em;
@@ -43,7 +43,7 @@ ul {
   color: #fff;
 }
 .contact-page-section {
-  background-image: url('./contactbackground.png');
+  background-image: url("./contactbackground.png");
   position: relative;
   padding-top: 110px;
   padding-bottom: 110px;
@@ -133,12 +133,24 @@ ul {
   height: 250px;
   resize: none;
 }
+
+.fa {
+  margin-right: 7px;
+}
+.btn-block:hover {
+  position: relative;
+  color: #fff;
+  background-color: #222;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 .contact-form .theme-btn {
   font-size: 16px;
   font-weight: 700;
   margin-top: 10px;
   text-transform: capitalize;
-  padding: 16px 39px;
+
   border: 2px solid black;
   font-family: Arimo, sans-serif;
   background: black;
@@ -148,11 +160,7 @@ ul {
   cursor: pointer;
   color: #fff;
 }
-.contact-form .theme-btn:hover {
-  color: black;
-  border-color: black;
-  background-color: white;
-}
+
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error {
@@ -205,7 +213,7 @@ ul {
 .footer p {
   float: left;
   width: 50%;
-  font-size: 18px
+  font-size: 18px;
 }
 .footer p i {
   color: red;
@@ -224,17 +232,17 @@ ul {
   text-decoration: none;
   color: #bababa;
 }
-.footer ul li a i{
+.footer ul li a i {
   width: 50px;
   height: 50px;
   background-color: black;
   line-height: 50px;
   font-size: 35px;
   margin-left: 5px;
-  -webkit-transition: .3s;
-     -moz-transition: .3s;
-       -o-transition: .3s;
-          transition: .3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .footer ul li a i.fa-facebook:hover {
   background-color: #3b5998;
@@ -247,40 +255,40 @@ ul {
 }
 
 .footer ul li a i:hover {
-  color: #FFF;
+  color: #fff;
 }
-@media (max-width: 576px) {  
+@media (max-width: 576px) {
   .footer ul li {
     margin-top: 15px;
   }
 }
-@media (max-width: 767.9px) {  
+@media (max-width: 767.9px) {
   .footer {
-    max-width: 540px
+    max-width: 540px;
   }
   .footer ul,
   .footer p {
     float: none;
     margin: auto;
     width: 100%;
-    text-align:center;
+    text-align: center;
   }
   .footer p {
-    margin-top: 15px
+    margin-top: 15px;
   }
 }
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
   .footer {
-    max-width: 720px
-  } 
+    max-width: 720px;
+  }
 }
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .footer {
-    max-width: 960px
-  } 
+    max-width: 960px;
+  }
 }
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) {
   .footer {
     max-width: 100%;
-  } 
+  }
 }
